@@ -2,7 +2,7 @@ import { useEffect, useState } from "react";
 import axios from "axios";
 
 const apiClient = axios.create({
-    baseURL: "http://localhost:3000",
+    baseURL: "http://localhost:4000",
   });
 
 export default function TrendingPosts () {
